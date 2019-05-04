@@ -141,15 +141,22 @@ p {
 }
 
 .about-middle-content .text-container {
-    padding: 10px 0 20px 0;
+    padding: 9px 0 20px 0;
 }
 
 .about-middle-content section {
     width: 46%;
-    margin: 0 15px 50px 15px;
+    margin: 0 17px 50px 15px;
     border-bottom: 1px dashed black;
     padding-bottom: 19px;
-    padding-top: 8px;
+    padding-top: 10px;
+}
+
+button {
+    padding: 10px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 2px black;
 }
 
 .middle-content .boxes {
@@ -167,39 +174,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }
 
 #box1 {
@@ -242,13 +216,40 @@ footer nav a {
     background-color: dodgerblue;
 }
 
-button {
-    padding: 10px 22px;
-    font-size: 16px;
-    border-radius: 10px;
-    border: solid 2px black;
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
 }
 
 .about-bottom-content {
     margin-bottom: 40px;
 }
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+

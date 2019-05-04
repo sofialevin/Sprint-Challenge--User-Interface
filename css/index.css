@@ -114,6 +114,10 @@ p {
     padding-left: 20px;
 }
 
+.about-bottom-content .text-container {
+    padding-left: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -136,9 +140,16 @@ p {
     justify-content: space-between;
 }
 
+.about-middle-content .text-container {
+    padding: 10px 0 20px 0;
+}
+
 .about-middle-content section {
-    width: 50%;
-    padding: 20px;
+    width: 46%;
+    margin: 0 15px 50px 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 19px;
+    padding-top: 8px;
 }
 
 .middle-content .boxes {
@@ -231,6 +242,13 @@ footer nav a {
     background-color: dodgerblue;
 }
 
-.middle-section {
+button {
+    padding: 10px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
 
+.about-bottom-content {
+    margin-bottom: 40px;
 }

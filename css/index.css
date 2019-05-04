@@ -76,6 +76,7 @@ p {
     justify-content: space-between;
     align-items: flex-end;
     padding: 20px 0 20px 0;
+    margin-bottom: 18px;
 }
 
 .container header nav {
@@ -91,9 +92,9 @@ p {
     color: black;
 }
 
-.header-img {
+/* .header-img {
     margin: 18px 0 18px 0;
-}
+} */
 
 .top-content {
     display: flex;
@@ -104,8 +105,13 @@ p {
 }
 
 .about-top-content {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 20px 0 20px 0;
     border-bottom: 1px dashed black;
+}
+
+.about-top-content .text-container {
+    padding-left: 20px;
 }
 
 .top-content .text-container {

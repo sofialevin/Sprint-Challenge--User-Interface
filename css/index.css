@@ -71,12 +71,51 @@ p {
     margin: 0 auto;
 }
 
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0 20px 0;
+    margin-bottom: 18px;
+}
+
+.container header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+
+.container header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .header-img {
+    margin: 18px 0 18px 0;
+} */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-top-content {
+    padding-bottom: 20px;
+    margin: 20px 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content .text-container {
+    padding-left: 20px;
+}
+
+.about-bottom-content .text-container {
+    padding-left: 20px;
 }
 
 .top-content .text-container {
@@ -95,6 +134,58 @@ p {
     margin-bottom: 0;
 }
 
+.about-middle-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-middle-content .text-container {
+    padding: 9px 0 20px 0;
+}
+
+.about-middle-content section {
+    width: 46%;
+    margin: 0 17px 50px 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 19px;
+    padding-top: 10px;
+}
+
+button {
+    padding: 10px 22px 10px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 2px black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +203,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +255,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom-content {
+    margin-bottom: 40px;
 }
 
 footer {
@@ -144,3 +279,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+

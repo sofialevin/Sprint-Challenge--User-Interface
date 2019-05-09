@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+HTML is a markup language used to make websites. Semantic HTML is HTML with meaning. This meaning is helpful both for humans and computers to know what kind of content is supposed to be inside a tag, as opposed to, for example, div which has no meaning and is used primarily for layout. This allows  humans to read the code more easily and allows computers to parse the content of a website (for SEO, search indexing, applications that pull in specific content like a recipe or article, etc.).
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+A display: block element takes up as much width as it’s allowed by its parent, and you can use the height and width properties to adjust its size.
+A display: inline element only takes up as much space as its content, and the height and width properties have no effect on it.
 
 3. What are the 4 areas of the box model?
 
+Content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis (across from the main-axis).
+
 5. Explain why git is valuable to a team of developers.
+
+- It allows to save the code at different points (commit). This is great for historical purposes and seeing what the code was like at different points in time, but it also allows you to revert back to a certain commit, which you might want to do if later commits started causing issues. It can also help figure out which specific commit (and therefore which piece of code) might have caused issues.
+- It allows for branching, so you can work on a feature and not worry about it affecting the production code, since you can also test it separately. It also allows separate developers to work on different features separately from each other.
+- It allows your code to be reviewed by someone via a pull request before being merged with the production code. Sometimes just having a second (or third and fourth) set of eyes can help catch issues in the code that would otherwise be missed.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
